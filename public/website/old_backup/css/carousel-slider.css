@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+/*--------------------------------------------------------------------
+
+  1 汎用設定
+
+--------------------------------------------------------------------*/
+
+* {
+	margin:0;
+	padding:0;
+}
+
+*, *:before, *:after {
+box-sizing: border-box;
+}
+
+/* TOPへ戻る */
+#page-top {
+position: fixed;
+bottom: 32px;
+right: 16px;
+z-index:100;
+transition: top .5s, bottom .5s;
+}
+#page-top a 
+{
+    color: #45c587;
+    display: block;
+    letter-spacing: 3px;
+    font-size: 11px;
+    text-transform: uppercase;
+    border-top: dotted 1px #45c587;
+    font-weight: 600;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+}
+#page-top.hide {
+bottom: -100px;
+}
+
+/* scroll（スクロールバー表示）
+------------------------------------- */
+/* スクロール防止 */
+.scroll-prevent {
+position: fixed;
+z-index: -1;
+width: 100%;
+height: 100%;
+}
+
+/*--------------------------------------------------------------------
+
+2 レイアウト設定
+
+--------------------------------------------------------------------*/
+
+.wrap{
+max-width:1200px;
+margin:0 auto;
+/* sticky が効かなくなるのでコメントアウト
+overflow: hidden;
+*/
+background:#f4f4f4;
+}
+
+/* 見出しナビゲーション */
+#sticky-navigator {
+background:#fff;
+line-height: 1.6;
+color: #555;
+font-size: 0.9em;
+box-shadow:0px 0px 5px;
+border:1px solid #f4f4f4;
+margin-bottom: 48px;
+padding: 10px
+}
+#sticky-navigator ul {
+padding: 0px;
+}
+#sticky-navigator ul li:first-child {
+border-top: none;
+padding-top: 8px;
+}
+#sticky-navigator ul li {
+list-style: none;
+line-height: 1.4;
+}
+#sticky-navigator ul li.nav-h2 {
+padding-top: 6px;
+padding-bottom: 6px;
+}
+#sticky-navigator ul li.nav-h3 {
+margin-left: 10px;
+}
+#sticky-navigator ul li.current {
+background-color: #dadde1;
+}
+#sticky-navigator {
+position: -webkit-sticky;
+position: sticky;
+top: 5px;
+}
+
+/* 画像スライダー */
+.isystkSlider {
+position: relative;
+width: 100%;
+max-width: 100%;
+overflow: hidden;
+top: 140px;
+margin-top: -80px;
+}
+.isystkSlider .view-layer {
+width: 79%;
+max-width: 100%;
+overflow: hidden;
+margin-left: auto;
+margin-right: auto;
+}
+.isystkBrandSlider  .view-layer {
+width: 97%;
+}
+.isystkSlider ul.parent{
+margin-bottom:10px;
+}
+.isystkSlider li.child{
+float:left;
+list-style: none;
+}
+.isystkSlider li.child p{
+margin:0 5px 0 0;
+/*border:solid 1px #dedede;
+background:#fff;*/
+padding:5px;
+}
+.child p img{
+border: 1px solid #d9d9d9;
+}
+.isystkSlider img{
+vertical-align: middle;
+border-radius: 10px;
+}
+.isystkSlider .prev-btn,
+.isystkSlider .next-btn{
+position: absolute;
+top: 50%;
+margin-top: -1em;
+width: 30px;
+}
+.isystkSlider .prev-btn img,
+.isystkSlider .next-btn img{
+width: 30px;
+}
+.isystkSlider .next-btn{
+right: 0;
+}
+.isystkSlider .paging {
+display: flex;
+justify-content: space-around;
+padding: 0;
+margin: 6px;
+width: 565px;
+}
+.isystkSlider .paging p{
+margin:0 5px 0 0;
+border:solid 1px #dedede;
+background:#fff;
+padding:3px;
+}
+.isystkSlider .paging.dot {
+width: 24%;
+margin: 5px auto;
+}
+.isystkSlider .paging.dot li {
+border: 1px solid #666;
+border-radius: 50%;
+width: 7px;
+height: 7px;
+list-style-type: none;
+}
+.isystkSlider .paging.dot li.active {
+background: #666;
+}

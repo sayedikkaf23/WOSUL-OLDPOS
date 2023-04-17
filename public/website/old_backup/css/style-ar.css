@@ -1,0 +1,150 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: Raleway-Regular;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: Almarai-Regular;
+    src: url(../fonts/Almarai-Regular.ttf);
+}
+
+@font-face {
+    font-family: Almarai-Bold;
+    src: url(../fonts/Almarai-Bold.ttf);
+}
+
+
+/* Common Code Starts */
+
+body {
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: Almarai-Regular!important;
+    transition: 0.5s ease all;
+    text-align: right;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Almarai-Bold!important;
+    line-height: 1.5;
+    padding-right: 31px;
+    padding-top: 17px;
+}
+
+p {
+    font-family: Almarai-Regular!important;
+}
+
+.no-padding {
+    padding: 0px !important;
+}
+
+.font-arabic {
+    font-family: Almarai-Regular!important;
+}
+
+
+/* Common Code Ends */
+
+.top-header .nav-link {
+    color: inherit;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    margin-left: 15px;
+}
+
+.navbar-light .navbar-nav li {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.feature-tabs-content {
+    left: 100px;
+    right: inherit;
+}
+
+.custom-ul {
+    padding-right: 32px;
+}
+
+.isystkSlider {
+    direction: ltr!important;
+}
+
+#page-top {
+    left: 16px;
+    right: inherit;
+}
+
+#page-top a {
+    float: left;
+}
+
+
+/***** About page Starts  *******/
+
+.post .fly-post-content {
+    text-align: right;
+}
+
+.page-btn3 {
+    float: right;
+    border-right: 3px solid #020202;
+    border-left: 0px;
+}
+
+
+/******* About Page Ends *******/
+
+
+/******* Pricing Page Starts *******/
+
+.pricing-content {
+    direction: ltr;
+}
+
+
+/****** Pricing Page Ends *********/
+
+
+/****** Contact Page Starts *******/
+
+.social-icon a {
+    margin-left: 30px;
+    margin-right: 0px;
+}
+
+
+/****** Contact Page Ends *********/
+
+
+/****** Wosul Form Page Starts *****/
+
+.offset-md-2 {
+    margin-right: 16.666667%;
+}
+
+
+/****** Wosul Form Page Ends ********/
+
+
+/****************** Footer Code Ends *******/
+
+@media screen and (max-width: 768px) {}
+
+.custom-direction {
+    direction: ltr!important;
+}
+
+.ml-auto {
+    margin-right: auto !important;
+}

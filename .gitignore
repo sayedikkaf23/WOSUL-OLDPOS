@@ -1,0 +1,28 @@
+# Node dependencies
+/node_modules
+
+public/storage
+public/storage/*
+public/mix-manifest.json
+public/js/app.js
+public/*.worker.js
+
+# PHP Dependencies
+/vendor
+
+#Laravel configuration file
+.env
+
+#Storage media (images,logs)
+/storage
+*.log
+
+# Other 
+/.idea
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+storage/*

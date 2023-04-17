@@ -1,0 +1,10 @@
+body {
+    font-family: 'Courier New';
+    font-size: 8px;
+    height: 100px;
+    direction: rtl!important;
+}
+
+.right {
+    text-align: left!important;
+}

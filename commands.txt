@@ -1,0 +1,9 @@
+
+1. to remove forbidden error from storage media
+
+- remove storage directory from public and run below commands
+: php artisan storage:link
+: chmod -R 777 /var/www/vhosts/wosul.com/httpdocs/public/
+: chmod -R 777 /var/www/vhosts/wosul.com/httpdocs/storage/
+: chown -R wosul:psaserv /var/www/vhosts/wosul.com/httpdocs/public/
+: chown -R wosul:psaserv /var/www/vhosts/wosul.com/httpdocs/storage/

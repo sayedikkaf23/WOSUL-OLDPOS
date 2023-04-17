@@ -1,0 +1,12 @@
+diff a/app/Http/Controllers/API/User.php b/app/Http/Controllers/API/User.php	(rejected hunks)
+@@ -1795,6 +1795,10 @@
+             ->active()
+             ->first();
+ 
++            if(!$user_data)
++                throw new Exception("Wrong login code", 400);
++                
++
+             if($request->store_id !== '' && $request->store_id !== null){
+                 $store_status = UserStoreModel::where(['user_id'=>$user_data->id,'store_id'=> $request->store_id])->first();
+                 if(!$store_status){

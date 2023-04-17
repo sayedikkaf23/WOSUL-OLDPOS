@@ -1,0 +1,34 @@
+
+-> change DB_PREFIX in .env from 'wasldemo' to 'wosul'
+
+-> change default username and password for mysql in database.php
+
+-> remove old storage and link new one
+
+-> change ownership of public directory like this 	
+	- chown -R wasldemo:psaserv /var/www/vhosts/wasldemo.com/httpdocs/public/
+
+-> remove extra entries of MODIFIER_STATUS from master_status table
+
+-> query to add filed 'price' in modifier options
+: ALTER TABLE `modifier_options` ADD `price` DOUBLE(10,2) NOT NULL AFTER `modifier_id`;
+
+-> remove extra entries of MODIFIER_OPTION_STATUS from master_status table
+
+=> Extra Commands
+
+-> create a root db user for phpmyadmin
+
+GRANT ALL PRIVILEGES ON *.* TO 'user_edfa'@'%' identified by '2Xt2c@j4';
+
+-> create soft stroage link on forbiddens storage path
+
+CREATE USER 'edfa'@'localhost' IDENTIFIED BY '2Xt2c@j4'
+
+GRANT ALL PRIVILEGES ON . TO 'edfa'@'%' identified by '2Xt2c@j4';
+
+
+ZID API KEY
+-----------
+
+eyJ4NXQiOiJOVGRtWmpNNFpEazNOalkwWXpjNU1tWm1PRGd3TVRFM01XWXdOREU1TVdSbFpEZzROemM0WkE9PSIsImtpZCI6ImdhdGV3YXlfY2VydGlmaWNhdGVfYWxpYXMiLCJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJTdXBwb3J0QHdvc3VsLnNhQGNhcmJvbi5zdXBlciIsImFwcGxpY2F0aW9uIjp7Im93bmVyIjoiU3VwcG9ydEB3b3N1bC5zYSIsInRpZXJRdW90YVR5cGUiOm51bGwsInRpZXIiOiJVbmxpbWl0ZWQiLCJuYW1lIjoid29zdWwiLCJpZCI6MTgwLCJ1dWlkIjoiNWI4MDRiOTctZjc5Yi00YTE0LWFhMTMtYzcwZWJhMTk2Mzg0In0sImlzcyI6Imh0dHBzOlwvXC9wb3J0YWwuemlkLmRldjo0NDNcL29hdXRoMlwvdG9rZW4iLCJ0aWVySW5mbyI6eyJEZWZhdWx0UG9saWN5Ijp7InRpZXJRdW90YVR5cGUiOiJyZXF1ZXN0Q291bnQiLCJncmFwaFFMTWF4Q29tcGxleGl0eSI6MCwiZ3JhcGhRTE1heERlcHRoIjowLCJzdG9wT25RdW90YVJlYWNoIjp0cnVlLCJzcGlrZUFycmVzdExpbWl0IjowLCJzcGlrZUFycmVzdFVuaXQiOiJzZWMifX0sImtleXR5cGUiOiJTQU5EQk9YIiwicGVybWl0dGVkUmVmZXJlciI6IiIsInN1YnNjcmliZWRBUElzIjpbeyJzdWJzY3JpYmVyVGVuYW50RG9tYWluIjoiY2FyYm9uLnN1cGVyIiwibmFtZSI6IlppZEFQSSIsImNvbnRleHQiOiJcL2FwcFwvdjEiLCJwdWJsaXNoZXIiOiJhZG1pbiIsInZlcnNpb24iOiJ2MSIsInN1YnNjcmlwdGlvblRpZXIiOiJEZWZhdWx0UG9saWN5In1dLCJwZXJtaXR0ZWRJUCI6IiIsImlhdCI6MTYyMzgyNTU0OCwianRpIjoiNmEzMjUxMWYtYmU2OC00ZDNjLTg2YmYtZDZkZjhhOGJiMDdhIn0=.wig7p2l94Yzyayx41aBnTqsU_r8_pEItgrsfpPh51h4FBS_O4bxkXx8hGEAswS8jwqWpkkcLZT471o9I1CE_VJKWwsU1iu-MWyxtkLtsovyUW5bp8QdVjVHsI5ssu0k4Sb2gF70FJpVcUsIL6ZV5jWk0KRzq2dvbIVg138CKhkG3eDbcxFbZlAFp0_g_PiSv346Ztu3js1sQ7_QR-OEZ4G2O2QLn5jNhHyXISSFDlivGYNsTxhw4AsdSH4nIXFOZlXbcTqtNfwX7qOvcMuOSlrs4TrvbYUlQcIFY6go4AMamOdaArWJnObnKgF55XDSC-DTW2oKcdnNzUeDH_UW7Jg==

@@ -1,0 +1,38 @@
+{
+    "i18n-ally.localesPaths": [
+        "resources/lang",
+        "public/new_website/images/language",
+        "public/website/images/language",
+        "public/website/images2/language",
+        "public/theme/libs/apexcharts/locales",
+        "public/theme/libs/bootstrap-datepicker/locales",
+        "public/theme/libs/fullcalendar/locale",
+        "public/theme/libs/moment/locale",
+        "public/theme/libs/parsleyjs/i18n",
+        "public/theme/libs/summernote/lang",
+        "public/theme/assets/libs/apexcharts/locales",
+        "public/theme/assets/libs/bootstrap-datepicker/locales",
+        "public/theme/assets/libs/fullcalendar/locale",
+        "public/theme/assets/libs/moment/locale",
+        "public/theme/assets/libs/parsleyjs/i18n",
+        "public/theme/assets/libs/summernote/lang"
+    ],
+    "i18n-easy.localesPaths": [
+        "resources/lang",
+        "public/new_website/images/language",
+        "public/website/images/language",
+        "public/website/images2/language",
+        "public/theme/libs/apexcharts/locales",
+        "public/theme/libs/bootstrap-datepicker/locales",
+        "public/theme/libs/fullcalendar/locale",
+        "public/theme/libs/moment/locale",
+        "public/theme/libs/parsleyjs/i18n",
+        "public/theme/libs/summernote/lang",
+        "public/theme/assets/libs/apexcharts/locales",
+        "public/theme/assets/libs/bootstrap-datepicker/locales",
+        "public/theme/assets/libs/fullcalendar/locale",
+        "public/theme/assets/libs/moment/locale",
+        "public/theme/assets/libs/parsleyjs/i18n",
+        "public/theme/assets/libs/summernote/lang"
+    ]
+}

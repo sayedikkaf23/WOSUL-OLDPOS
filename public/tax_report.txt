@@ -1,0 +1,199 @@
+Array
+(
+    [0] => Array
+        (
+            [Merchant] => makan
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [1] => Array
+        (
+            [Merchant] => thiva
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [2] => Array
+        (
+            [Merchant] => wosulsupport
+            [Tax Type] => تبغ
+            [Tax Percentage] => 100.00
+        )
+
+    [3] => Array
+        (
+            [Merchant] => wosulsupport
+            [Tax Type] => س
+            [Tax Percentage] => 0.15
+        )
+
+    [4] => Array
+        (
+            [Merchant] => rafa
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [5] => Array
+        (
+            [Merchant] => dark
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [6] => Array
+        (
+            [Merchant] => fresh
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [7] => Array
+        (
+            [Merchant] => hajraf
+            [Tax Type] => vatx
+            [Tax Percentage] => 0.00
+        )
+
+    [8] => Array
+        (
+            [Merchant] => aqaba
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [9] => Array
+        (
+            [Merchant] => good
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [10] => Array
+        (
+            [Merchant] => wolf
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [11] => Array
+        (
+            [Merchant] => salon
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [12] => Array
+        (
+            [Merchant] => mukhmal
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [13] => Array
+        (
+            [Merchant] => worth
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [14] => Array
+        (
+            [Merchant] => zarqa
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [15] => Array
+        (
+            [Merchant] => habka
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [16] => Array
+        (
+            [Merchant] => queen
+            [Tax Type] => غير خاضع
+            [Tax Percentage] => 0.00
+        )
+
+    [17] => Array
+        (
+            [Merchant] => juices
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [18] => Array
+        (
+            [Merchant] => ribal
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [19] => Array
+        (
+            [Merchant] => anbob
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [20] => Array
+        (
+            [Merchant] => tahlal
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [21] => Array
+        (
+            [Merchant] => drop
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [22] => Array
+        (
+            [Merchant] => tittle
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [23] => Array
+        (
+            [Merchant] => khalid
+            [Tax Type] => لايوجد
+            [Tax Percentage] => 0.00
+        )
+
+    [24] => Array
+        (
+            [Merchant] => sayyadrestaurant
+            [Tax Type] => TOBACCO
+            [Tax Percentage] => 100.00
+        )
+
+    [25] => Array
+        (
+            [Merchant] => atom
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [26] => Array
+        (
+            [Merchant] => story
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+    [27] => Array
+        (
+            [Merchant] => lam
+            [Tax Type] => DEFAULT_TAX
+            [Tax Percentage] => 0.00
+        )
+
+)

@@ -1,0 +1,451 @@
+        
+        @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+        body
+        {
+            background-color: #F8FCFD;
+            font-family: Rubik,sans-serif;
+            font-size: .85rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #505d69;
+        }
+        #invoice-wrapper
+        {
+            max-width: 780px;
+            margin: auto;
+            font-size: 10px!important;
+            line-height: 20px!important;
+        }
+        .invoice-card
+        {
+            background: #fff;
+            box-shadow: 0 2px 3px rgba(0,0,0,.08);
+            border: 1px solid #f4f8f9;
+            border-radius: .25rem;
+            float: left;
+            padding: 1.25rem;
+            /*margin:20px;*/
+        }
+        .font-16{
+            font-size: 16px;
+        }
+        .border-bottom{
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+        }
+        .col-print-1 {width:8%;  float:left;}
+        .col-print-2 {width:16%; float:left;}
+        .col-print-3 {width:25%; float:left;}
+        .col-print-4 {width:33%; float:left;}
+        .col-print-5 {width:42%; float:left;}
+        .col-print-6 {width:50%; float:left;}
+        .col-print-7 {width:58%; float:left;}
+        .col-print-8 {width:66%; float:left;}
+        .col-print-9 {width:75%; float:left;}
+        .col-print-10{width:83%; float:left;}
+        .col-print-11{width:92%; float:left;}
+        .col-print-12{width:100%; float:left;}
+        
+        .invoice-card p
+        {
+            margin-bottom: 0rem!important;
+        }
+
+        .bg-blue{
+            background: #094269;
+        }
+        .col-height-45{
+            height: 45px;
+        }
+        .color-white{
+            color: white;
+        }
+        .no-margin{
+            margin: 0px ;
+        }
+        .no-padding{
+            padding: 0px ;
+        }
+        .bold-text{
+            font-weight: bold;
+        }
+        .font-15{
+            font-size: 15px;
+        }
+        .font-16{
+            font-size: 16px;
+        }
+        .padding-5{
+            padding: 5px;
+        }
+        .small-logo{
+            width: 100px;
+            height: 26px;
+        }
+        .margin-top-30{
+            margin-top: 30px;
+        }
+        .margin-top-10{
+            margin-top: 10px;
+        }
+        .margin-bottom-10{
+            margin-bottom: 10px;
+        }
+        .padding-bottom-10{
+            padding-bottom: 10px;
+        }
+        .padding-left-10{
+            padding-left: 10px;
+        }
+        table
+        {
+            border-collapse: collapse;
+            border-spacing: 0;
+
+        }
+        table thead
+        {
+            background:#094269!important;
+        }
+        table tr td 
+        {
+            line-height: 32px;          
+        }
+        table tr
+        {
+            border-bottom:1px solid #eff2f7;
+        }
+        table tr:last-child
+        {
+            border-bottom:none;
+        }
+        .border-radius-left-bottom
+        {
+            border-radius: 4px 0px 0px 4px;
+        }
+        .border-radius-right-bottom
+        {
+            border-radius: 0px 4px 4px 0px;
+        }
+        .w-57
+        {
+            width: 56%;
+            float: left;
+            text-align: left;
+            margin-left: 0px!important;
+        }
+        .w-43
+        {
+            width: 44%;
+            float: right;
+            /*text-align: right;*/
+            text-align: center!important;
+        } 
+        .w-100
+        {
+            width: 100%;
+            float: right;
+            
+        }
+        .custom-float-right
+        {
+            float: right;
+        }
+
+        /*@media print{
+          body 
+          {
+            -webkit-print-color-adjust: exact !important;
+          }
+        }*/
+
+
+
+      #invoice-wrapper table 
+      {
+        border-collapse: collapse;
+      }
+      #invoice-wrapper td/*,#invoice-wrapper th*/
+      {
+        border: 2px solid #000;
+        padding: 0px 8px;
+        color: #000;
+        
+      }
+      #invoice-wrapper th
+      {
+        text-align: left;
+        background: #ccc;
+        padding: 2px 8px;
+        border: 2px solid #000;
+      }
+      .in-info .in-info-en table tr td:first-child 
+      {
+        border-right: 2px solid #fff!important;
+      }
+      .invoice-info-qrcode table tr td,
+      .invoice-seller-buyer-details table tr td
+      {
+        width: 130px;
+        white-space: nowrap;
+      }
+      #invoice-wrapper .direction-rtl th
+      {
+        text-align: right;
+      }
+      #invoice-wrapper .direction-rtl
+      {
+        direction: rtl!important;
+        text-align: right!important;  
+      }
+      #invoice-wrapper .d-flex
+      {
+        display: flex;
+      }
+      #invoice-wrapper .mt-1
+      {
+        margin-top: 1rem!important;
+      }
+      #invoice-wrapper .mt-2
+      {
+        margin-top: 2rem!important;
+      }
+      #invoice-wrapper .mt-3
+      {
+        margin-top: 3rem!important;
+      }
+      #invoice-wrapper .text-center
+      {
+        text-align: center!important;
+        border-right: 1px solid #fff;
+      }
+      #invoice-wrapper .title 
+      {
+          padding: 10px;
+      }
+      #invoice-wrapper .border-bottom
+      {
+        border-bottom: 1px solid #f0efef;
+      }
+      #invoice-wrapper .justify-space-between
+      {
+          justify-content: space-between;
+      }
+
+      /*** Common Code Ends ***/
+
+      #invoice-wrapper
+      {
+        width: 840px;
+        background: #fff;
+        box-shadow: 0px 0px 30px #eee;
+        margin: 0 auto;
+      }
+      .invoice-inner 
+      {
+          padding: 20px;
+      }
+      .header
+      {
+        width: 100%;
+        padding: 0px 0px;
+      }
+      .header-02
+      {
+        width: 100%;
+        text-align: center;
+      }
+      .header-02 h4 
+      {
+          margin: 5px 0px;
+      }
+      .invoice-info-qrcode
+      {
+        width: 100%;
+        display: flex;
+      }
+      .in-info
+      {
+        width: 75%;
+        height: auto;
+        float: left;
+      }
+      .in-info-en,.in-info-en table
+      {
+          width: 100%;
+      }
+      .in-info-en {
+        margin-bottom: 10px;
+    }
+      #invoice-wrapper .in-info-en td
+      {
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+      }
+      #invoice-wrapper .in-info-en td:last-child
+      {
+        border-left: 2px solid #fff!important;
+        border-right: 2px solid #000!important;
+      }
+      #invoice-wrapper .in-info table tr td:first-child
+      {
+        border-left: 2px solid #000!important;
+        border-right: 2px solid #fff!important;
+      }
+      .in-qr 
+      {
+          width: 25%;
+          float: left;
+          min-height: 100px;
+          text-align: center;
+      }
+      .in-qr img 
+      {
+          min-height: 100px;
+          max-height: 100px;
+      }
+      .in-info table tr td
+      {
+        width: 130px;
+        white-space: nowrap;
+      }
+      
+      /* .invoice-seller-buyer-details 
+      {
+          width: 100%;
+          display: flex;
+      } */
+      .invoice-seller-buyer-details table tr th:first-child 
+      {
+        border-right:1px solid #e9e9e9!important;
+      }
+      .invoice-seller-buyer-details table tr th:last-child 
+      {
+        border-left:1px solid #e9e9e9!important;
+      }
+      /* .invoice-seller-buyer-details table tr td:first-child,
+      .invoice-seller-buyer-details table tr th:first-child
+      {
+        border-right: 1px solid #fff!important;
+      } */
+      .list-items-details table tr:nth-child(2) th {
+        background: #fff!important;
+        color: inherit!important;
+        text-align: center!important;
+        font-size: 11px!important;
+    }
+      .in-seller-details,.in-buyer-details
+      {
+        width: 50%;
+        display: flex;
+        float: left;
+        
+      }      
+      .list-items-details table tr td
+      {
+        text-align: center;
+        color: #000;
+        font-weight: bold;
+      }
+
+      .list-items-details table
+      {
+        width: 100%!important;
+      }
+      /* .list-items-details table tr:nth-child(2) th
+      {
+        background: #7b7b7b;
+        color: #fff;
+        text-align: center;
+        line-height: 0px!important;
+        font-size: 11px!important;
+      } */
+      /* .nowrap,.list-items-details table tr td
+      {
+        white-space: nowrap;
+      } */
+      .list-items-details table tbody .nowrap
+      {
+        white-space: nowrap!important;
+      }
+      .title-ar
+      {
+        text-align: right!important;
+        direction: rtl!important;
+      }
+      .total-amount-details
+      {
+        float: left;
+        width: 50%;
+        font-size: 11px!important;
+      }
+      
+      .total-amount-details table {
+          width: 50%;
+          float: left!important;
+
+      }
+      table tr td:nth-child(2)
+      {
+        border-left: none;
+        border-right: none;
+      }
+      .total-amount-details table tr td,
+      .bank-account-details table tr td
+      {
+          width: 25%;
+          color: #000;
+        font-weight: bold;
+      }
+      .total-amount-details table tr td:first-child,
+      .total-amount-details table tr th:first-child,
+      .list-items-details table tr:first-child th:first-child
+      {
+        border-right: 1px solid #fff!important;
+      }
+      .total-amount-details table tr:last-child
+      {
+        font-weight: bold;
+      }      
+      .total-amount-wrapper
+      {
+        width: 57%;
+        float: left;
+      }
+      .bank-details-wrapper
+      {
+        width: 43%;
+        float: left;  
+      }
+      .bank-account-details 
+      {
+          width: 100%;
+          float: left!important;
+          background: #f9f9f9;
+          border: 2px solid #000;
+          padding: 0px 5px;          
+      }
+      .bank-account-details table tr td
+      {
+        /* border: none!important; */
+        border-left:none!important;
+        border-right:none!important;
+        font-size: 13px!important;
+      }
+      .bank-account-details table tr td:first-child
+      {
+        border-top: none!important;
+      }
+      
+      
+
+      @media print
+      {
+        body 
+        {
+          -webkit-print-color-adjust: exact !important;
+          -moz-print-color-adjust: exact !important;
+          forced-color-adjust: exact !important;
+        }
+        
+      }
