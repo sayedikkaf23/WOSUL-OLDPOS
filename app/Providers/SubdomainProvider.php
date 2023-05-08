@@ -30,7 +30,7 @@ class SubdomainProvider extends ServiceProvider
 
          if ($subdomain == env('DB_PREFIX') || $subdomain == "admin") {
             // wosul website & admin panel
-            $merchant_database = "wosul_admin";
+            $merchant_database = "wosulerp_admin";
          } else {
             $merchant_database = $subdomain . "_wosul";
             $merchant =  DB::table('merchants')->where('company_url', $subdomain)->first();

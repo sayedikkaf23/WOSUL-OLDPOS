@@ -59,7 +59,7 @@ return [
             'driver' => 'mysql',
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'wosul_admin'),
+            'database' => env('DB_DATABASE', 'wosulerp_admin'),
             'username' => env('DB_USERNAME', env('DB_USERNAME')),
             'password' => env('DB_PASSWORD', env('DB_PASSWORD')),
             'unix_socket' => env('DB_SOCKET', ''),

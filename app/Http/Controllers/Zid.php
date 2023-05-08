@@ -116,7 +116,7 @@ class Zid extends Controller
 
         if (isset($zid_products) && count($zid_products) > 0) {
 
-            $connect = mysqli_connect('localhost', env('DB_USERNAME'), env('DB_PASSWORD'), 'wosul_admin');
+            $connect = mysqli_connect('localhost', env('DB_USERNAME'), env('DB_PASSWORD'), 'wosulerp_admin');
             $merchant_stores = "SELECT m.company_url FROM merchants m INNER JOIN merchant_zid_stores mzs ON m.id = mzs.merchant_id WHERE mzs.zid_store_id = '" . $zid_store_id . "' ORDER BY mzs.id LIMIT 1";
             $merchant_stores = mysqli_query($connect, $merchant_stores);
             $company_url = "";

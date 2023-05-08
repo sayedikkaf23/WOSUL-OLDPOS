@@ -26,7 +26,7 @@ class SubdomainMiddleware
 
         if (isset($merchant_email)) {
             $merchant_email = $merchant_email->email;
-            $connect = mysqli_connect('localhost', config('database.connections.mysql.username'), config('database.connections.mysql.password'), 'wosul_admin');
+            $connect = mysqli_connect('localhost', config('database.connections.mysql.username'), config('database.connections.mysql.password'), 'wosulerp_admin');
             $merchant_id = mysqli_query($connect, 'SELECT id FROM merchants WHERE email = "' . $merchant_email . '" ');
             if (mysqli_num_rows($merchant_id) > 0) {
                 $merchant_id = mysqli_fetch_assoc($merchant_id);

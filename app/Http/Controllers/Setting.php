@@ -408,7 +408,7 @@ class Setting extends Controller
         $username = 'wosul';
         $password = '2Xt2c@j4';
     
-        $connect = mysqli_connect($host, $username, $password, 'wosul_admin');
+        $connect = mysqli_connect($host, $username, $password, 'wosulerp_admin');
         $master_query = "SELECT company_url FROM merchants ORDER BY id ASC LIMIT 221,250";
         $get_all_databases = mysqli_query($connect, $master_query);
 
